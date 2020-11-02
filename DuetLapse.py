@@ -30,7 +30,8 @@ try:
 except ImportError:
     print("Python Library Module 'numpy' is required. ")
     print("Obtain via 'sudo python3 -m pip install numpy'")
-    print("Obtain pip via 'sudo apt install python-pip'")
+    print("Also run 'sudo apt-get install libatlas-base-dev' for numpy")
+    print("Obtain pip3 via 'sudo apt install python3-pip'")
     exit(2)
 
 
